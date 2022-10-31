@@ -16,7 +16,7 @@ const EventoCheckbox: React.FC<{ evento: IEvento }> = ({ evento }) => {
 
     setListaDeEventos(listaAntiga => {
       const indice = listaAntiga.findIndex(evt => evt.id === evento.id)
-      return [...listaAntiga.slice(0, indice), evento, ...listaAntiga.slice(indice + 1)]
+      return [...listaAntiga.slice(0, indice), eventoAlterado, ...listaAntiga.slice(indice + 1)]
     })
   }
 
