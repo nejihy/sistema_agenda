@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSetRecoilState } from 'recoil';
 import { IEvento } from '../../../interfaces/IEvento';
-import { listaDeEventosState } from '../../../stare/atom';
+import { listaDeEventosState } from '../../../state/atom';
 
 const EventoCheckbox: React.FC<{ evento: IEvento }> = ({ evento }) => {
 

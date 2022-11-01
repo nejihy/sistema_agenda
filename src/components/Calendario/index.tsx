@@ -5,7 +5,7 @@ import ptBR from './localizacao/ptBR.json'
 import Kalend, { CalendarEvent, CalendarView, OnEventDragFinish } from 'kalend'
 import 'kalend/dist/styles/index.css';
 import { useRecoilValue, useSetRecoilState } from 'recoil';
-import { listaDeEventosState } from '../../stare/atom';
+import { listaDeEventosState } from '../../state/atom';
 import { IEvento } from '../../interfaces/IEvento';
 
 
