@@ -1,0 +1,5 @@
+A partir do momento que o usuário pode fazer esse drag and drop, ou seja, arrastar e soltar,
+muito provavelmente no nosso calendário deve ter esse evento para utilizarmos, esse callback para utilizarmos. Então vamos acessar a documentação dele,
+que é “https://docs.kalend.org/docs/intro”.
+E na documentação dele temos a parte de callbacks, e na lista de callbacks temos exatamente o que estávamos procurando, que é onEventDragFinish.
+
